@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.main {
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 450px;
+}
+
+.gradingsystem {
+    text-align: center;
+}
+
+.output {
+    text-align: left;
+}
+
+h2 {
+    color: red;
+    font-size: 28px;
+}
+
+.gradingsystem div {
+    line-height: 45px;
+    text-align: left;
+    font-size: 18px;
+}
+
+#calculate {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    background-color: rgb(195, 2, 2);
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.output p {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.output h2 {
+    margin-bottom: 0px;
+}
